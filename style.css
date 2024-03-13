@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+
+}
+.container{
+    
+    background-color: #031e40e0;
+    
+    color: white;
+}
+.social-icon{
+    color: #031e40e0;
+    font-size:26px;
+    margin-right: 30px;
+}
+.social-icon i{
+    padding: 2px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: white;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.row div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.nav{
+    background-color: #031e40e0;
+    color: white;
+    line-height: 50px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    justify-content: space-around;
+font-size: 18px;
+}
+.nav-list li img{
+    width: 30px;
+    padding-top: 10px;
+}
+#cars{
+    
+    color: white;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+.acc-lang{
+    display: flex;
+}
+#acount{
+    
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+.phone{
+    margin-left: 50px;
+}
+.logo img{
+    width: 180px;
+    height: 170px;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-cat-field{
+width: 550px;
+height: 50px;
+border-radius: 30px;
+border: 1px solid #8f8989;
+padding: 30px;
+font-size: 16px;
+background-color: #031e40e0;
+color: white;
+}
+.top-search-btn{
+    background-color: #031e40e0;
+    height: 55px;
+    border-radius: 25px;
+    border: 1px solid #8f8989;
+    padding: 2px;
+    font-size: 16px;
+    width: 150px;
+    color: white;
+}
+
+.img-xr img{
+    width: 140px;
+}
+.actual{
+font-size:18px;
+    margin-left:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-txt{
+    margin-left: 30px;
+}
+.actual-news{
+    background-color:#031e40e0 ;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.actual-news img{
+    width: 30px;
+    padding-top: 20px;
+}
+.foot-logo{
+    width: 300px;
+    margin-top: 30px;
+}
+.mail,.adres,.phone-nr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.contact{
+    padding-top: 40px;
+}
+.foot-sec-one{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background-color:#031e40e0 ;
+    color: white;
+}
+#footer-icon i{
+font-size: 24px;
+}
+#footer-icon {
+    padding-top: 20px;
+    
+}
+.fa-ph i{
+    
+    margin-bottom: 45px;
+    padding-right: 10px;
+
+}
+.copy-riter{
+    padding-top: 40px;
+    text-align: center;
+    background: #031e40e0;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+.list li{
+    padding-top: 8px;
+}
+.section-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    column-gap: 20px;
+}
+.nav-list li:hover{
+  transform: skewY(20deg);
+}
+.social-icon i:hover{
+    transform: rotateY(60deg);
+}
+.logo img:hover{
+    
+    transform: rotateY(60deg);
+}
+.bootom-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url(https://baku.ws/uploads/posts/2019-08/1566203542_14690077474789913211_1000x669.jpg);
+}
+.bootom-img h1{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin-left: 30px;
+}
+.partnyor{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.partnyor img{
+    width: 200px;
+}
+.end-sec{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.end-sec h4{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.partnyor a:hover{
+    transform: rotateY(60deg);
+}
